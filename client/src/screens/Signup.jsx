@@ -9,7 +9,7 @@ function Signup() {
   // Below function is used to connect front-end with backend. Fetch API is used so that whenever Submit button is pressed, it will hit the below endpoint
   const handleSubmit = async(event)=>{
     event.preventDefault();
-    const response = await fetch("http://localhost:5000/createuser", {
+    const response = await fetch("https://react-app-brvd.onrender.com/createuser", {
         method: "POST",
         headers: {
             "Content-Type": "application/json"
