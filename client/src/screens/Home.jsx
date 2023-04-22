@@ -10,7 +10,7 @@ function Home() {
   
   // This below line is used to fetch the data from below url(our backend) from where we are sending the two arrays of fooditems and foodcategory.
   let loadData = async()=>{
-    let getData = await fetch("http://localhost:5000/foodData", {
+    let getData = await fetch("https://react-app-brvd.onrender.com/foodData", {
       method: "POST",
       headers: {
         "Content-Type": "application/json"
