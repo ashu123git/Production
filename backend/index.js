@@ -7,7 +7,7 @@ myDb();
 
 // Since, two origins are used here that is localhost 3000 and 5000. Therefore cross-origin error came. To get rid of that error, below code snippet is used to allow cross-origin.
 app.use((req, res, next) => {
-    res.setHeader("Access-Control-Allow-Origin", "http://localhost:3000");
+    res.setHeader("Access-Control-Allow-Origin", "https://eat24food.netlify.app");
     res.header(
         "Access-Control-Allow-Headers",
         "Origin, X-Requested-With, Content-Type, Accept"

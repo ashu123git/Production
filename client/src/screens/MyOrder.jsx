@@ -7,7 +7,7 @@ function MyOrder() {
 
     const fetchMyOrder = async () => {
         // console.log(localStorage.getItem('userEmail'))
-        await fetch("http://localhost:5000/myOrderData", {
+        await fetch("https://react-app-brvd.onrender.com/myOrderData", {
             // credentials: 'include',
             // Origin:"http://localhost:3000/login",
             method: 'POST',
